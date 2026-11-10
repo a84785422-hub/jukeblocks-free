@@ -1,0 +1,7 @@
+jukeblocks-free/
+├── index.html
+├── style.css
+├── script.js
+├── data/
+│   └── songs.json
+└── README.md

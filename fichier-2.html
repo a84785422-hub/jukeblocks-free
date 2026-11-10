@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JukeBlocks - Free Version</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1><span class="neon">JukeBlocks</span> <small>Free Edition</small></h1>
+            <p>Create & Share Music Blocks</p>
+        </header>
+
+        <main class="blocks-area" id="blocksArea">
+            <!-- Blocks will be generated here -->
+        </main>
+
+        <section class="controls">
+            <div class="input-group">
+                <input type="text" id="blockTitle" placeholder="Titre du block...">
+                <input type="text" id="blockArtist" placeholder="Artiste...">
+                <button class="btn-primary" onclick="addBlock()">Créer un Block</button>
+            </div>
+            <div class="stats" id="stats">
+                <span>0 blocks créés</span>
+            </div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
