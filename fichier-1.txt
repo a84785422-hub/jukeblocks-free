@@ -1,0 +1,9 @@
+/ (racine)
+  ├── .github/
+  │   └── workflows/
+  │       └── pages-build-deploy.yml
+  ├── index.html
+  ├── style.css
+  ├── script.js
+  └── data/
+      └── songs.json
